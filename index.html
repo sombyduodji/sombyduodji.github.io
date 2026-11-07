@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sombyduodji – sovellukset</title>
+<meta name="description" content="Maksuttomia ja avoimia sovelluksia: Gievra – Treenipäiväkirja, Sátni FST -pohjoissaamen sanakirja ja Sátnemátki-sanapeli lapsille. Ei mainoksia, ei tiliä, lähdekoodi avoimena.">
+<link rel="icon" href="img/satni-fst.svg" type="image/svg+xml">
+<style>
+:root{--bg:#f6f4ef;--surface:#fff;--text:#17191d;--muted:#5d636d;--line:#e4e1da;
+  --red:#d52b1e;--green:#007229;--yellow:#ffce00;--blue:#0035ad;--dark:#262a30;--link:#b5241a}
+@media (prefers-color-scheme:dark){:root{--bg:#121417;--surface:#1c1f24;--text:#eceae5;--muted:#a3a8b0;--line:#2c3037;--link:#ff7a6f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif}
+a{color:var(--link)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.band{height:8px;background:linear-gradient(90deg,var(--red) 0 25%,var(--green) 25% 50%,var(--yellow) 50% 75%,var(--blue) 75%)}
+header{padding:44px 0 18px;text-align:center}
+h1{font-size:clamp(30px,6vw,46px);margin:0 0 6px;letter-spacing:-.5px}
+.bures{color:#b07d00;font-weight:700}
+@media (prefers-color-scheme:dark){.bures{color:var(--yellow)}}
+.lead{font-size:19px;max-width:700px;margin:10px auto 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 0;padding:0;list-style:none}
+.chips li{background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:5px 12px;font-size:14px}
+.note{border-left:5px solid var(--yellow);background:var(--surface);border-radius:12px;padding:14px 16px;margin:22px 0 0}
+section{padding:24px 0}
+h2{font-size:26px;margin:0 0 14px}
+.apps{display:grid;gap:18px}
+.app{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;display:grid;grid-template-columns:96px 1fr;gap:18px}
+@media (max-width:620px){.app{grid-template-columns:1fr}}
+.app .icon{width:96px;height:96px;border-radius:22px;object-fit:cover;background:var(--dark)}
+.app h3{margin:0;font-size:22px}
+.app .what{margin:2px 0 8px;color:var(--muted)}
+.status{display:inline-block;font-size:13px;font-weight:700;border-radius:99px;padding:3px 10px;margin:0 0 10px}
+.status.new{background:rgba(0,114,41,.14);color:var(--green)}
+.status.hold{background:rgba(255,206,0,.22);color:#7a5a00}
+.status.demo{background:rgba(0,53,173,.12);color:var(--blue)}
+@media (prefers-color-scheme:dark){.status.new{color:#5fd38a}.status.hold{color:var(--yellow)}.status.demo{color:#8fb0ff}}
+.app ul{margin:6px 0 12px;padding-left:20px}
+.app li{margin:3px 0}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700;font-size:15px}
+.btn.primary{background:var(--red);color:#fff}
+.btn.secondary{border:2px solid var(--line);color:var(--text)}
+.shot{width:100%;max-width:420px;border-radius:12px;border:1px solid var(--line);margin:4px 0 12px;display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0}
+.lang p{margin:0 0 10px}
+footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<div class="wrap">
+
+<header>
+  <h1>Sombyduodji</h1>
+  <p><span class="bures">Bures!</span> Pieniä sovelluksia saamen kieleen ja arkeen.</p>
+  <p class="lead">Teen maksuttomia ja avoimia sovelluksia: pohjoissaamen sanakirjan, sanapelin lapsille ja
+  treenipäiväkirjan. Kaikki ovat ilmaisia, eikä niissä ole mainoksia, tiliä tai seurantaa.</p>
+  <ul class="chips">
+    <li>Maksuton</li><li>Avoin lähdekoodi (GPL-3.0)</li><li>Ei mainoksia</li><li>Ei tiliä</li><li>Toimii ilman verkkoa</li>
+  </ul>
+  <p class="note">🛠️ Sovellukset ovat kehityksessä: ominaisuudet, ulkoasu ja tiedostomuodot voivat vielä muuttua.
+  Palaute auttaa päättämään, mihin keskitytään.</p>
+</header>
+
+<section>
+  <h2>Sovellukset</h2>
+  <div class="apps">
+
+    <article class="app">
+      <img class="icon" src="img/gievra.png" alt="Gievran logo: kahvakuula">
+      <div>
+        <h3>Gievra – Treenipäiväkirja</h3>
+        <p class="what">Treenipäiväkirja salille ja kuntoiluun · Android ja selain · suomeksi, kokeellisesti pohjoissaameksi</p>
+        <span class="status new">Juuri julkaistu · päivittyy usein</span>
+        <p>Gievra on pohjoissaamea ja tarkoittaa <i>vahvaa</i>. Treenit tallentuvat tavallisina
+        Markdown-tiedostoina omaan kansioosi: <i>sinun treenisi, sinun tiedostosi</i>.</p>
+        <ul>
+          <li>sarjan kirjaus yhdellä napautuksella, lämmittelysarjat ja painoehdotukset valmiina</li>
+          <li>valmiit treeniohjelmat: voimanosto, lihaskasvu, rasvanpoltto, yleiskunto, kahvakuula ja kehonpaino</li>
+          <li>palautusajastin, tilastot, ennätykset ja liikeohjeet animaatioineen</li>
+          <li>ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista</li>
+        </ul>
+        <div class="links">
+          <a class="btn primary" href="https://sombyduodji.github.io/gievra/">Kotisivu</a>
+          <a class="btn secondary" href="https://sombyduodji.github.io/gievra/app/">Kokeile selaimessa</a>
+          <a class="btn secondary" href="https://github.com/sombyduodji/gievra/releases/latest/download/Gievra-android-arm64.apk">Lataa Androidille</a>
+          <a class="btn secondary" href="https://github.com/sombyduodji/gievra">Lähdekoodi</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app">
+      <img class="icon" src="img/satni-fst.svg" alt="Sátni FST:n logo: saamen lipun värinen pisara">
+      <div>
+        <h3>Sátni FST</h3>
+        <p class="what">Pohjoissaamen sanakirja ja taivutin · Linux, Windows, Android ja selain · suomeksi ja norjaksi</p>
+        <span class="status hold">Julkiset julkaisut tauolla</span>
+        <p>Uudet julkiset versiot ovat tauolla, kunnes suljettu testaus on valmis. Työ jatkuu kulissien
+        takana, ja verkkoversiota ja nykyisiä latauksia voi käyttää edelleen.</p>
+        <ul>
+          <li>noin 80 000 pohjoissaamen sanaa, joista noin 74 000 täysin taivutustauluin</li>
+          <li>haku taivutetulla muodolla (<i>dagan</i> → <i>dahkat</i>) tai suomeksi ja norjaksi</li>
+          <li>astevaihtelu väreillä, ääntäminen puhesynteesillä, historia ja suosikit</li>
+          <li>toimii ilman verkkoa; kielitieto GiellaLT:ltä, Divvunilta ja Giellateknolta</li>
+        </ul>
+        <div class="links">
+          <a class="btn primary" href="https://sombyduodji.github.io/satni-fst/">Kotisivu ja verkkoversio</a>
+          <a class="btn secondary" href="https://github.com/sombyduodji/satni-fst/releases/latest">Lataukset</a>
+          <a class="btn secondary" href="https://github.com/sombyduodji/satni-fst">Lähdekoodi</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="app">
+      <img class="icon" src="img/satnematki.png" alt="Sátnemátki: isometrinen koti, jossa perhe ja Biret">
+      <div>
+        <h3>Sátnemátki</h3>
+        <p class="what">Pohjoissaamen sanapeli lapsille · selaimessa · saamen sanat suomennoksineen</p>
+        <span class="status demo">Teknologiademo</span>
+        <p><i>Sátnemátki</i> tarkoittaa sanamatkaa. Pelaaja liikkuu Máhttena tai Biretinä paikasta toiseen,
+        peli sanoo saamenkielisen sanan ja pelaaja etsii sen tarkoittaman asian. Hävitä ei voi.</p>
+        <ul>
+          <li>koti, metsä, kauppa, rautakauppa, kirjasto, luokka, parkkipaikka ja laavu</li>
+          <li>kosketus näyttää sanan saameksi ja suomeksi, joten aiempaa osaamista ei tarvita</li>
+          <li>numerot sanoina ja numeroina, kaupassa ostoslista ja maksaminen</li>
+        </ul>
+        <div class="links">
+          <a class="btn primary" href="https://sombyduodji.github.io/satnematki/">Pelaa selaimessa</a>
+          <a class="btn secondary" href="https://github.com/sombyduodji/satnematki">Lähdekoodi</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <h2>Maksuton ja avoin</h2>
+  <div class="grid">
+    <div class="card"><h3>Ilmainen</h3><p>Kaikki sovellukset ovat ja pysyvät maksuttomina. Ei mainoksia,
+    ei tilauksia, ei kirjautumista.</p></div>
+    <div class="card"><h3>Avoin lähdekoodi</h3><p>Lähdekoodi on GitHubissa GNU GPL v3.0 -lisenssillä: saat
+    käyttää, tutkia, muokata ja jakaa.</p></div>
+    <div class="card"><h3>Tietosi pysyvät sinulla</h3><p>Sovellukset toimivat ilman verkkoa, eivätkä ne lähetä
+    tietojasi minnekään. Poikkeuksena valinnaiset toiminnot, kuten Sátni FST:n ääntäminen (Divvunin
+    puhesynteesi) ja kokeellinen kuvahaku.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Palaute on aina tervetullutta</h2>
+  <p>Virheet, ideat, käännöskorjaukset ja kaikki muu auttavat sovelluksia eteenpäin:</p>
+  <ul>
+    <li>Gievra: <a href="mailto:treeni@somby.fi">treeni@somby.fi</a> tai sovelluksessa ☰ → <i>Ilmoita ongelmasta</i></li>
+    <li>Sátni FST: <a href="mailto:satni@somby.fi">satni@somby.fi</a></li>
+    <li>GitHubissa: <a href="https://github.com/sombyduodji">github.com/sombyduodji</a> (kunkin sovelluksen virheilmoitukset ja ehdotukset)</li>
+  </ul>
+  <p>Jos sovelluksista on sinulle hyötyä, voit
+  <a href="https://buymeacoffee.com/sombyduodji">tarjota kahvit</a> ☕</p>
+</section>
+
+<section class="lang">
+  <h2>In English · På norsk</h2>
+  <p><b>English:</b> Free, open-source apps (GPL-3.0) with no ads, accounts or tracking: <b>Gievra</b>, a training
+  log for the gym (just released, updated often); <b>Sátni FST</b>, an offline North Sámi dictionary with full
+  inflection (new public releases are on hold until closed testing is finished, but work continues); and
+  <b>Sátnemátki</b>, a North Sámi word game for children (technology demo). All apps are under development and
+  subject to change. Feedback is always welcome.</p>
+  <p><b>Norsk:</b> Gratis apper med åpen kildekode (GPL-3.0), uten reklame, konto eller sporing: <b>Gievra</b>,
+  en treningsdagbok (nettopp lansert, oppdateres ofte); <b>Sátni FST</b>, en nordsamisk ordbok med full bøying
+  som virker uten nett (nye offentlige versjoner venter til den lukkede testen er ferdig, men arbeidet fortsetter);
+  og <b>Sátnemátki</b>, et nordsamisk ordspill for barn (teknologidemo). Appene er under utvikling og kan endres.
+  Tilbakemeldinger er alltid velkomne.</p>
+</section>
+
+</div>
+<footer>Sombyduodji · Juha Somby · <a href="https://github.com/sombyduodji">GitHub</a></footer>
+<div class="band"></div>
+</body>
+</html>
