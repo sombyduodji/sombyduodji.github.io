@@ -376,7 +376,8 @@ def block(code, t):
   <h2>{t['apps']}</h2>
   <div class="apps">
 {app(t, 'gievra', 'img/gievra.png', t['icon_alt'][0], 'new', [
-        'https://sombyduodji.github.io/gievra/', 'https://sombyduodji.github.io/gievra/app/', GIEVRA_APK,
+        'https://sombyduodji.github.io/gievra/' + ('en/' if code == 'en' else ''),
+        'https://sombyduodji.github.io/gievra/app/' + ('?lang=en' if code == 'en' else ''), GIEVRA_APK,
         'https://github.com/sombyduodji/gievra'])}
 {app(t, 'satni', 'img/satni-fst.svg', t['icon_alt'][1], 'hold', [
         'https://sombyduodji.github.io/satni-fst/', 'https://github.com/sombyduodji/satni-fst/releases/latest',
