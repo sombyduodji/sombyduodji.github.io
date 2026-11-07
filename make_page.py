@@ -38,6 +38,7 @@ T = {
             "sarjan kirjaus yhdellä napautuksella, lämmittelysarjat ja painoehdotukset valmiina",
             "valmiit treeniohjelmat: voimanosto, lihaskasvu, rasvanpoltto, yleiskunto, kahvakuula ja kehonpaino",
             "palautusajastin, tilastot, ennätykset ja liikeohjeet animaatioineen",
+            "juoksulle oma kehitysnäkymä: lenkin tyypit, vauhti, kilometrit ja ennätykset",
             "ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
         ],
         gievra_langs="käyttöliittymä suomeksi ja kokeellisesti pohjoissaameksi (konekäännös); liikkeiden nimet "
@@ -108,6 +109,7 @@ T = {
             "logg et sett med ett trykk, oppvarmingssett og vektforslag ferdig utfylt",
             "ferdige treningsprogrammer: styrkeløft, muskelvekst, fettforbrenning, allsidig form, kettlebell og kroppsvekt",
             "pausetimer, statistikk, rekorder og øvelsesveiledninger med animasjoner",
+            "egen utviklingsvisning for løping: økttyper, tempo, kilometer og rekorder",
             "programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
         ],
         gievra_langs="brukergrensesnitt på finsk og eksperimentelt på nordsamisk (maskinoversatt); navn på "
@@ -179,6 +181,7 @@ T = {
             "gárvves hárjehallanprográmmat: fápmolokten, deahkkešattolašvuohta, buoiddi boaldin, oppalaš návccat, "
             "kettlebell ja rumašdeaddu",
             "vuoiŋŋasteami áigemihttár, statistihkka, rekordat ja hárjehusaid rávvagat animašuvnnaiguin",
+            "viehkamii iežas ovdánanoaidnu: viehkanšlájat, leaktu, kilomehterat ja rekordat",
             "prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
         ],
         gievra_langs="geavahanlávdi suomagillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus); "
@@ -251,6 +254,7 @@ T = {
             "log a set with one tap, with warm-up sets and weight suggestions filled in",
             "ready-made programs: powerlifting, muscle growth, fat loss, general fitness, kettlebell and bodyweight",
             "rest timer, statistics, records and exercise guides with animations",
+            "a separate progress view for running: run types, pace, distance and records",
             "program templates (<code>.gmd</code>) to share; import from FitNotes",
         ],
         gievra_langs="user interface in Finnish and, experimentally, North Sámi (machine translated); exercise "
