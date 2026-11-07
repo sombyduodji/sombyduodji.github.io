@@ -37,7 +37,7 @@ T = {
         gievra_feats=[
             "sarjan kirjaus yhdellä napautuksella, lämmittelysarjat ja painoehdotukset valmiina",
             "valmiit treeniohjelmat: voimanosto, lihaskasvu, rasvanpoltto, yleiskunto, kahvakuula ja kehonpaino",
-            "palautusajastin, tilastot, ennätykset ja liikeohjeet animaatioineen",
+            "palautusajastin, tilastot (viikko–vuosi), ennätykset ja liikeohjeet animaatioineen; kehonpainon seuranta",
             "juoksulle oma kehitysnäkymä: lenkin tyypit, vauhti, kilometrit ja ennätykset",
             "ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
         ],
@@ -108,7 +108,7 @@ T = {
         gievra_feats=[
             "logg et sett med ett trykk, oppvarmingssett og vektforslag ferdig utfylt",
             "ferdige treningsprogrammer: styrkeløft, muskelvekst, fettforbrenning, allsidig form, kettlebell og kroppsvekt",
-            "pausetimer, statistikk, rekorder og øvelsesveiledninger med animasjoner",
+            "pausetimer, statistikk (uke–år), rekorder og øvelsesveiledninger med animasjoner; vektlogg",
             "egen utviklingsvisning for løping: økttyper, tempo, kilometer og rekorder",
             "programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
         ],
@@ -180,7 +180,7 @@ T = {
             "ráiddu vurken ovttain deaddilemiin, liegganeami ráiddut ja deaddoevttohusat gárvvisin",
             "gárvves hárjehallanprográmmat: fápmolokten, deahkkešattolašvuohta, buoiddi boaldin, oppalaš návccat, "
             "kettlebell ja rumašdeaddu",
-            "vuoiŋŋasteami áigemihttár, statistihkka, rekordat ja hárjehusaid rávvagat animašuvnnaiguin",
+            "vuoiŋŋasteami áigemihttár, statistihkka (vahkku–jahki), rekordat ja hárjehusaid rávvagat animašuvnnaiguin; rumašdeattu čuovvun",
             "viehkamii iežas ovdánanoaidnu: viehkanšlájat, leaktu, kilomehterat ja rekordat",
             "prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
         ],
@@ -253,7 +253,7 @@ T = {
         gievra_feats=[
             "log a set with one tap, with warm-up sets and weight suggestions filled in",
             "ready-made programs: powerlifting, muscle growth, fat loss, general fitness, kettlebell and bodyweight",
-            "rest timer, statistics, records and exercise guides with animations",
+            "rest timer, statistics (week to year), records and exercise guides with animations; body weight tracking",
             "a separate progress view for running: run types, pace, distance and records",
             "program templates (<code>.gmd</code>) to share; import from FitNotes",
         ],
