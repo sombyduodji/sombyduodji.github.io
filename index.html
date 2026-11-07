@@ -21,6 +21,7 @@ nav.langs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:16p
 nav.langs button{display:flex;align-items:center;gap:8px;font:inherit;font-size:14px;font-weight:600;color:var(--text);
   background:var(--surface);border:2px solid var(--line);border-radius:99px;padding:6px 12px 6px 8px;cursor:pointer}
 nav.langs button[aria-pressed="true"]{border-color:var(--red)}
+nav.langs svg.se{width:24.24px}
 nav.langs svg{width:27px;height:18px;border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.15);flex:none}
 header{padding:28px 0 18px;text-align:center}
 h1{font-size:clamp(30px,6vw,46px);margin:0 0 6px;letter-spacing:-.5px}
@@ -65,7 +66,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
 <nav class="langs" aria-label="Kieli · Språk · Giella · Language">
   <button type="button" data-lang="fi" aria-pressed="true" lang="fi"><svg viewBox="0 0 36 24" aria-hidden="true"><rect width="36" height="24" fill="#fff"/><rect x="10" width="6" height="24" fill="#002f6c"/><rect y="9" width="36" height="6" fill="#002f6c"/></svg><span>Suomi</span></button>
   <button type="button" data-lang="nb" aria-pressed="false" lang="nb"><svg viewBox="0 0 36 24" aria-hidden="true"><rect width="36" height="24" fill="#ba0c2f"/><rect x="9" width="7" height="24" fill="#fff"/><rect y="8.5" width="36" height="7" fill="#fff"/><rect x="10.75" width="3.5" height="24" fill="#00205b"/><rect y="10.25" width="36" height="3.5" fill="#00205b"/></svg><span>Norsk</span></button>
-  <button type="button" data-lang="se" aria-pressed="false" lang="se"><svg viewBox="0 0 36 24" aria-hidden="true"><rect width="36" height="24" fill="#d52b1e"/><rect x="15.75" width="2.25" height="24" fill="#007229"/><rect x="18" width="2.25" height="24" fill="#ffce00"/><rect x="20.25" width="15.75" height="24" fill="#0035ad"/><path d="M15.75 4.8 A7.2 7.2 0 0 0 15.75 19.2" fill="none" stroke="#0035ad" stroke-width="2.4"/><path d="M15.75 4.8 A7.2 7.2 0 0 1 15.75 19.2" fill="none" stroke="#d52b1e" stroke-width="2.4"/></svg><span>Sámegiella</span></button>
+  <button type="button" data-lang="se" aria-pressed="false" lang="se"><svg class="se" viewBox="0 0 808 600" aria-hidden="true"><path fill="#0035ad" d="M0 0h808v600H0z"/><path fill="#ffce00" d="M0 0h370v600H0z"/><path fill="#007229" d="M0 0h314v600H0z"/><path fill="#dc241f" d="M0 0h258v600H0z"/><path fill="#0035ad" d="M314 108a192 192 0 0 0 0 384l16-16-16-16a160 160 0 0 1 0-320l16-16-16-16z"/><path fill="none" stroke="#dc241f" stroke-width="32" d="M314 124a176 176 0 0 1 0 352"/></svg><span>Sámegiella</span></button>
   <button type="button" data-lang="en" aria-pressed="false" lang="en"><svg viewBox="0 0 60 40" aria-hidden="true"><clipPath id="uk"><path d="M30,20 h30 v20 z v20 h-30 z h-30 v-20 z v-20 h30 z"/></clipPath><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" clip-path="url(#uk)" stroke="#c8102e" stroke-width="5"/><path d="M30,0 v40 M0,20 h60" stroke="#fff" stroke-width="13"/><path d="M30,0 v40 M0,20 h60" stroke="#c8102e" stroke-width="8"/></svg><span>English</span></button>
 </nav>
 <main data-lang="fi" lang="fi">
@@ -106,7 +107,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
       <img class="icon" src="img/satni-fst.svg" alt="Sátni FST:n logo: saamen lipun värinen pisara">
       <div>
         <h3>Sátni FST</h3>
-        <p class="what">Pohjoissaamen sanakirja ja taivutin · Linux, Windows, Android ja selain</p>
+        <p class="what">Pohjoissaame–suomi–norja-sanakirja ja taivutin · Linux, Windows, Android ja selain</p>
         <span class="status hold">Julkiset julkaisut tauolla</span>
         <p>Uudet julkiset versiot ovat tauolla, kunnes suljettu testaus on valmis. Työ jatkuu kulissien takana, ja verkkoversiota ja nykyisiä latauksia voi käyttää edelleen.</p>
         <ul>
@@ -115,7 +116,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
           <li>astevaihtelu väreillä, ääntäminen puhesynteesillä, historia ja suosikit</li>
           <li>toimii ilman verkkoa; kielitieto GiellaLT:ltä, Divvunilta ja Giellateknolta</li>
         </ul>
-        <p class="langs"><b>Kielet:</b> käyttöliittymä suomeksi ja norjaksi; käännökset suomeksi ja norjaksi, osalle sanoista myös englanniksi sekä inarin-, luulajan- ja eteläsaameksi; kokeellisesti koltansaamen sanoja.</p>
+        <p class="langs"><b>Kielet:</b> sanakirja pohjoissaamesta suomeen ja norjaan ja toisin päin; käyttöliittymä suomeksi ja norjaksi; osalle sanoista käännös myös englanniksi sekä inarin-, luulajan- ja eteläsaameksi; kokeellisesti koltansaamen sanoja.</p>
         <div class="links">
           <a class="btn primary" href="https://sombyduodji.github.io/satni-fst/">Kotisivu ja verkkoversio</a>
           <a class="btn secondary" href="https://github.com/sombyduodji/satni-fst/releases/latest">Lataukset</a>
@@ -203,7 +204,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
       <img class="icon" src="img/satni-fst.svg" alt="Sátni FSTs logo: en dråpe i det samiske flaggets farger">
       <div>
         <h3>Sátni FST</h3>
-        <p class="what">Nordsamisk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser</p>
+        <p class="what">Nordsamisk–finsk–norsk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser</p>
         <span class="status hold">Offentlige utgivelser på pause</span>
         <p>Nye offentlige versjoner venter til den lukkede testen er ferdig. Arbeidet fortsetter i kulissene, og nettversjonen og dagens nedlastinger kan fortsatt brukes.</p>
         <ul>
@@ -212,7 +213,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
           <li>stadieveksling i farger, uttale med talesyntese, historikk og favoritter</li>
           <li>virker uten nett; språkdata fra GiellaLT, Divvun og Giellatekno</li>
         </ul>
-        <p class="langs"><b>Språk:</b> brukergrensesnitt på finsk og norsk; oversettelser til finsk og norsk, for noen ord også til engelsk, enaresamisk, lulesamisk og sørsamisk; eksperimentelt skoltesamiske ord.</p>
+        <p class="langs"><b>Språk:</b> ordbok fra nordsamisk til finsk og norsk og motsatt vei; brukergrensesnitt på finsk og norsk; for noen ord også oversettelser til engelsk, enaresamisk, lulesamisk og sørsamisk; eksperimentelt skoltesamiske ord.</p>
         <div class="links">
           <a class="btn primary" href="https://sombyduodji.github.io/satni-fst/">Hjemmeside og nettversjon</a>
           <a class="btn secondary" href="https://github.com/sombyduodji/satni-fst/releases/latest">Nedlastinger</a>
@@ -301,7 +302,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
       <img class="icon" src="img/satni-fst.svg" alt="Sátni FST logo: sámi leavgga ivnnat goaikkanasas">
       <div>
         <h3>Sátni FST</h3>
-        <p class="what">Davvisámegiel sátnegirji ja sojahanreaidu · Linux, Windows, Android ja neahttalohkki</p>
+        <p class="what">Davvisámegiel sátnegirji suomagillii ja dárogillii, sojahanreaidu · Linux, Windows, Android ja neahttalohkki</p>
         <span class="status hold">Almmolaš veršuvnnat bottus</span>
         <p>Ođđa almmolaš veršuvnnat vurdet dassážii go giddejuvvon geahččaleapmi lea gárvvis. Bargu joatkašuvvá duogábealde, ja neahttaveršuvnna ja dálá veršuvnnaid sáhttá ain geavahit.</p>
         <ul>
@@ -310,7 +311,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
           <li>ceahkkemolsašupmi ivnniiguin, hupman hállansyntesain, historjá ja favorihtat</li>
           <li>doaibmá neahta haga; gielladieđut GiellaLT:s, Divvunis ja Giellateknos</li>
         </ul>
-        <p class="langs"><b>Gielat:</b> geavahanlávdi suomagillii ja dárogillii; jorgalusat suomagillii ja dárogillii, muhtin sániide maiddái eŋgelasgillii, anárašgillii, julevsámegillii ja máttasámegillii; geahččaleapmin nuortalašgiel sánit.</p>
+        <p class="langs"><b>Gielat:</b> sátnegirji davvisámegielas suomagillii ja dárogillii ja nuppe guvlui; geavahanlávdi suomagillii ja dárogillii; muhtin sániide jorgalusat maiddái eŋgelasgillii, anárašgillii, julevsámegillii ja máttasámegillii; geahččaleapmin nuortalašgiel sánit.</p>
         <div class="links">
           <a class="btn primary" href="https://sombyduodji.github.io/satni-fst/">Ruoktosiidu ja neahttaveršuvdna</a>
           <a class="btn secondary" href="https://github.com/sombyduodji/satni-fst/releases/latest">Veršuvnnat</a>
@@ -398,7 +399,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
       <img class="icon" src="img/satni-fst.svg" alt="Sátni FST logo: a drop in the colours of the Sámi flag">
       <div>
         <h3>Sátni FST</h3>
-        <p class="what">North Sámi dictionary and inflection tool · Linux, Windows, Android and browser</p>
+        <p class="what">North Sámi–Finnish–Norwegian dictionary and inflection tool · Linux, Windows, Android and browser</p>
         <span class="status hold">Public releases on hold</span>
         <p>New public releases are on hold until closed testing is finished. Work continues behind the scenes, and the web version and current downloads can still be used.</p>
         <ul>
@@ -407,7 +408,7 @@ footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px}
           <li>consonant gradation in colour, pronunciation with speech synthesis, history and favourites</li>
           <li>works offline; language data from GiellaLT, Divvun and Giellatekno</li>
         </ul>
-        <p class="langs"><b>Languages:</b> user interface in Finnish and Norwegian; translations into Finnish and Norwegian, for some words also English, Inari, Lule and Southern Sámi; experimentally Skolt Sámi words.</p>
+        <p class="langs"><b>Languages:</b> dictionary from North Sámi to Finnish and Norwegian and the other way round; user interface in Finnish and Norwegian; for some words also translations into English, Inari, Lule and Southern Sámi; experimentally Skolt Sámi words.</p>
         <div class="links">
           <a class="btn primary" href="https://sombyduodji.github.io/satni-fst/">Home page and web version</a>
           <a class="btn secondary" href="https://github.com/sombyduodji/satni-fst/releases/latest">Downloads</a>

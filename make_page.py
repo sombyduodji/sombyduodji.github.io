@@ -43,7 +43,7 @@ T = {
         gievra_langs="käyttöliittymä suomeksi ja kokeellisesti pohjoissaameksi (konekäännös); liikkeiden nimet "
         "suomeksi, englanniksi tai molemmilla.",
         gievra_links=["Kotisivu", "Kokeile selaimessa", "Lataa Androidille", "Lähdekoodi"],
-        satni_what="Pohjoissaamen sanakirja ja taivutin · Linux, Windows, Android ja selain",
+        satni_what="Pohjoissaame–suomi–norja-sanakirja ja taivutin · Linux, Windows, Android ja selain",
         satni_status="Julkiset julkaisut tauolla",
         satni_desc="Uudet julkiset versiot ovat tauolla, kunnes suljettu testaus on valmis. Työ jatkuu kulissien "
         "takana, ja verkkoversiota ja nykyisiä latauksia voi käyttää edelleen.",
@@ -53,8 +53,9 @@ T = {
             "astevaihtelu väreillä, ääntäminen puhesynteesillä, historia ja suosikit",
             "toimii ilman verkkoa; kielitieto GiellaLT:ltä, Divvunilta ja Giellateknolta",
         ],
-        satni_langs="käyttöliittymä suomeksi ja norjaksi; käännökset suomeksi ja norjaksi, osalle sanoista myös "
-        "englanniksi sekä inarin-, luulajan- ja eteläsaameksi; kokeellisesti koltansaamen sanoja.",
+        satni_langs="sanakirja pohjoissaamesta suomeen ja norjaan ja toisin päin; käyttöliittymä suomeksi ja "
+        "norjaksi; osalle sanoista käännös myös englanniksi sekä inarin-, luulajan- ja eteläsaameksi; "
+        "kokeellisesti koltansaamen sanoja.",
         satni_links=["Kotisivu ja verkkoversio", "Lataukset", "Lähdekoodi"],
         mat_what="Pohjoissaamen sanapeli lapsille · selaimessa",
         mat_status="Teknologiademo",
@@ -112,7 +113,7 @@ T = {
         gievra_langs="brukergrensesnitt på finsk og eksperimentelt på nordsamisk (maskinoversatt); navn på "
         "øvelser på finsk, engelsk eller begge.",
         gievra_links=["Hjemmeside", "Prøv i nettleseren", "Last ned for Android", "Kildekode"],
-        satni_what="Nordsamisk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser",
+        satni_what="Nordsamisk–finsk–norsk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser",
         satni_status="Offentlige utgivelser på pause",
         satni_desc="Nye offentlige versjoner venter til den lukkede testen er ferdig. Arbeidet fortsetter i "
         "kulissene, og nettversjonen og dagens nedlastinger kan fortsatt brukes.",
@@ -122,8 +123,9 @@ T = {
             "stadieveksling i farger, uttale med talesyntese, historikk og favoritter",
             "virker uten nett; språkdata fra GiellaLT, Divvun og Giellatekno",
         ],
-        satni_langs="brukergrensesnitt på finsk og norsk; oversettelser til finsk og norsk, for noen ord også "
-        "til engelsk, enaresamisk, lulesamisk og sørsamisk; eksperimentelt skoltesamiske ord.",
+        satni_langs="ordbok fra nordsamisk til finsk og norsk og motsatt vei; brukergrensesnitt på finsk og norsk; "
+        "for noen ord også oversettelser til engelsk, enaresamisk, lulesamisk og sørsamisk; eksperimentelt "
+        "skoltesamiske ord.",
         satni_links=["Hjemmeside og nettversjon", "Nedlastinger", "Kildekode"],
         mat_what="Nordsamisk ordspill for barn · i nettleseren",
         mat_status="Teknologidemo",
@@ -182,7 +184,7 @@ T = {
         gievra_langs="geavahanlávdi suomagillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus); "
         "hárjehusaid namat suomagillii, eŋgelasgillii dahje goappašagain.",
         gievra_links=["Ruoktosiidu", "Geahččal neahttalohkkis", "Viečča Androidii", "Gáldokoda"],
-        satni_what="Davvisámegiel sátnegirji ja sojahanreaidu · Linux, Windows, Android ja neahttalohkki",
+        satni_what="Davvisámegiel sátnegirji suomagillii ja dárogillii, sojahanreaidu · Linux, Windows, Android ja neahttalohkki",
         satni_status="Almmolaš veršuvnnat bottus",
         satni_desc="Ođđa almmolaš veršuvnnat vurdet dassážii go giddejuvvon geahččaleapmi lea gárvvis. Bargu "
         "joatkašuvvá duogábealde, ja neahttaveršuvnna ja dálá veršuvnnaid sáhttá ain geavahit.",
@@ -192,9 +194,9 @@ T = {
             "ceahkkemolsašupmi ivnniiguin, hupman hállansyntesain, historjá ja favorihtat",
             "doaibmá neahta haga; gielladieđut GiellaLT:s, Divvunis ja Giellateknos",
         ],
-        satni_langs="geavahanlávdi suomagillii ja dárogillii; jorgalusat suomagillii ja dárogillii, muhtin "
-        "sániide maiddái eŋgelasgillii, anárašgillii, julevsámegillii ja máttasámegillii; geahččaleapmin "
-        "nuortalašgiel sánit.",
+        satni_langs="sátnegirji davvisámegielas suomagillii ja dárogillii ja nuppe guvlui; geavahanlávdi "
+        "suomagillii ja dárogillii; muhtin sániide jorgalusat maiddái eŋgelasgillii, anárašgillii, "
+        "julevsámegillii ja máttasámegillii; geahččaleapmin nuortalašgiel sánit.",
         satni_links=["Ruoktosiidu ja neahttaveršuvdna", "Veršuvnnat", "Gáldokoda"],
         mat_what="Davvisámegiel sátnespeallu mánáide · neahttalohkkis",
         mat_status="Teknologiijaovdačájeheapmi",
@@ -254,7 +256,7 @@ T = {
         gievra_langs="user interface in Finnish and, experimentally, North Sámi (machine translated); exercise "
         "names in Finnish, English or both.",
         gievra_links=["Home page", "Try in your browser", "Download for Android", "Source code"],
-        satni_what="North Sámi dictionary and inflection tool · Linux, Windows, Android and browser",
+        satni_what="North Sámi–Finnish–Norwegian dictionary and inflection tool · Linux, Windows, Android and browser",
         satni_status="Public releases on hold",
         satni_desc="New public releases are on hold until closed testing is finished. Work continues behind the "
         "scenes, and the web version and current downloads can still be used.",
@@ -264,8 +266,9 @@ T = {
             "consonant gradation in colour, pronunciation with speech synthesis, history and favourites",
             "works offline; language data from GiellaLT, Divvun and Giellatekno",
         ],
-        satni_langs="user interface in Finnish and Norwegian; translations into Finnish and Norwegian, for some "
-        "words also English, Inari, Lule and Southern Sámi; experimentally Skolt Sámi words.",
+        satni_langs="dictionary from North Sámi to Finnish and Norwegian and the other way round; user interface "
+        "in Finnish and Norwegian; for some words also translations into English, Inari, Lule and Southern "
+        "Sámi; experimentally Skolt Sámi words.",
         satni_links=["Home page and web version", "Downloads", "Source code"],
         mat_what="North Sámi word game for children · in your browser",
         mat_status="Technology demo",
@@ -300,18 +303,20 @@ T = {
     ),
 }
 
-# Liput: samat mittasuhteet kuin Gievran kielivalinnassa (3:2).
+# Liput: 27×18 px; saamen lippu omissa mittasuhteissaan (808:600), ettei ympyrä veny.
 FLAGS = {
     "fi": '<svg viewBox="0 0 36 24" aria-hidden="true"><rect width="36" height="24" fill="#fff"/>'
     '<rect x="10" width="6" height="24" fill="#002f6c"/><rect y="9" width="36" height="6" fill="#002f6c"/></svg>',
     "nb": '<svg viewBox="0 0 36 24" aria-hidden="true"><rect width="36" height="24" fill="#ba0c2f"/>'
     '<rect x="9" width="7" height="24" fill="#fff"/><rect y="8.5" width="36" height="7" fill="#fff"/>'
     '<rect x="10.75" width="3.5" height="24" fill="#00205b"/><rect y="10.25" width="36" height="3.5" fill="#00205b"/></svg>',
-    "se": '<svg viewBox="0 0 36 24" aria-hidden="true"><rect width="36" height="24" fill="#d52b1e"/>'
-    '<rect x="15.75" width="2.25" height="24" fill="#007229"/><rect x="18" width="2.25" height="24" fill="#ffce00"/>'
-    '<rect x="20.25" width="15.75" height="24" fill="#0035ad"/>'
-    '<path d="M15.75 4.8 A7.2 7.2 0 0 0 15.75 19.2" fill="none" stroke="#0035ad" stroke-width="2.4"/>'
-    '<path d="M15.75 4.8 A7.2 7.2 0 0 1 15.75 19.2" fill="none" stroke="#d52b1e" stroke-width="2.4"/></svg>',
+    # Saamen lippu Wikimedia Commonsista (File:Sami_flag.svg, public domain; mitat ja värit Saamelaiskäräjiltä):
+    # ympyrän keskipiste vihreän ja keltaisen raidan rajalla, punaisella puolella sininen, sinisellä punainen.
+    "se": '<svg class="se" viewBox="0 0 808 600" aria-hidden="true"><path fill="#0035ad" d="M0 0h808v600H0z"/>'
+    '<path fill="#ffce00" d="M0 0h370v600H0z"/><path fill="#007229" d="M0 0h314v600H0z"/>'
+    '<path fill="#dc241f" d="M0 0h258v600H0z"/>'
+    '<path fill="#0035ad" d="M314 108a192 192 0 0 0 0 384l16-16-16-16a160 160 0 0 1 0-320l16-16-16-16z"/>'
+    '<path fill="none" stroke="#dc241f" stroke-width="32" d="M314 124a176 176 0 0 1 0 352"/></svg>',
     "en": '<svg viewBox="0 0 60 40" aria-hidden="true"><clipPath id="uk"><path d="M30,20 h30 v20 z v20 h-30 z h-30 v-20 z v-20 h30 z"/></clipPath>'
     '<rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/>'
     '<path d="M0,0 L60,40 M60,0 L0,40" clip-path="url(#uk)" stroke="#c8102e" stroke-width="5"/>'
@@ -411,6 +416,7 @@ nav.langs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:16p
 nav.langs button{display:flex;align-items:center;gap:8px;font:inherit;font-size:14px;font-weight:600;color:var(--text);
   background:var(--surface);border:2px solid var(--line);border-radius:99px;padding:6px 12px 6px 8px;cursor:pointer}
 nav.langs button[aria-pressed="true"]{border-color:var(--red)}
+nav.langs svg.se{width:24.24px}
 nav.langs svg{width:27px;height:18px;border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.15);flex:none}
 header{padding:28px 0 18px;text-align:center}
 h1{font-size:clamp(30px,6vw,46px);margin:0 0 6px;letter-spacing:-.5px}
