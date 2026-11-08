@@ -37,7 +37,7 @@ T = {
         gievra_feats=[
             "sarjan kirjaus yhdellä napautuksella, lämmittelysarjat ja painoehdotukset valmiina",
             "valmiit treeniohjelmat: voimanosto, lihaskasvu, rasvanpoltto, yleiskunto, kahvakuula ja kehonpaino",
-            "uutta: valinnainen GPS juoksuun, kävelyyn ja pyöräilyyn; reitti kartalla ja .gpx-tiedostona, offline-kartat kunnittain",
+            "uutta: valinnainen GPS juoksuun, kävelyyn ja pyöräilyyn; reitti kartalla ja .gpx-tiedostona, offline-kartat Suomeen, Pohjoismaihin, Iso-Britanniaan ja Espanjaan",
             "palautusajastin, tilastot (viikko–vuosi), ennätykset ja liikeohjeet animaatioineen; kehonpainon seuranta",
             "juoksulle oma kehitysnäkymä: lenkin tyypit, vauhti, kilometrit ja ennätykset",
             "ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
@@ -109,7 +109,7 @@ T = {
         gievra_feats=[
             "logg et sett med ett trykk, oppvarmingssett og vektforslag ferdig utfylt",
             "ferdige treningsprogrammer: styrkeløft, muskelvekst, fettforbrenning, allsidig form, kettlebell og kroppsvekt",
-            "nytt: valgfri GPS for løping, gåing og sykling; ruten på kart og som .gpx-fil, frakoblede kart for finske kommuner",
+            "nytt: valgfri GPS for løping, gåing og sykling; ruten på kart og som .gpx-fil, frakoblede kart for Norden, Storbritannia og Spania",
             "pausetimer, statistikk (uke–år), rekorder og øvelsesveiledninger med animasjoner; vektlogg",
             "egen utviklingsvisning for løping: økttyper, tempo, kilometer og rekorder",
             "programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
@@ -182,7 +182,7 @@ T = {
             "ráiddu vurken ovttain deaddilemiin, liegganeami ráiddut ja deaddoevttohusat gárvvisin",
             "gárvves hárjehallanprográmmat: fápmolokten, deahkkešattolašvuohta, buoiddi boaldin, oppalaš návccat, "
             "kettlebell ja rumašdeaddu",
-            "ođđa: eaktodáhtolaš GPS viehkamii, vázzimii ja sihkkelastimii; johtolat kárttas ja .gpx-fiilan, kárttat interneahta haga Suoma gielddaid mielde",
+            "ođđa: eaktodáhtolaš GPS viehkamii, vázzimii ja sihkkelastimii; johtolat kárttas ja .gpx-fiilan, kárttat interneahta haga: Suopma, Ruoŧŧa, Norga, Dánmárku, Islánda, Stuorra-Británnia ja Spánja",
             "vuoiŋŋasteami áigemihttár, statistihkka (vahkku–jahki), rekordat ja hárjehusaid rávvagat animašuvnnaiguin; rumašdeattu čuovvun",
             "viehkamii iežas ovdánanoaidnu: viehkanšlájat, leaktu, kilomehterat ja rekordat",
             "prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
@@ -256,7 +256,7 @@ T = {
         gievra_feats=[
             "log a set with one tap, with warm-up sets and weight suggestions filled in",
             "ready-made programs: powerlifting, muscle growth, fat loss, general fitness, kettlebell and bodyweight",
-            "new: optional GPS for running, walking and cycling; the route on a map and as a .gpx file, offline maps per Finnish municipality",
+            "new: optional GPS for running, walking and cycling; the route on a map and as a .gpx file, offline maps for Finland, the Nordic countries, the UK and Spain",
             "rest timer, statistics (week to year), records and exercise guides with animations; body weight tracking",
             "a separate progress view for running: run types, pace, distance and records",
             "program templates (<code>.gmd</code>) to share; import from FitNotes",
