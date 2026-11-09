@@ -45,7 +45,7 @@ T = {
         ],
         gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös); liikkeiden nimet "
         "suomeksi, englanniksi tai molemmilla.",
-        gievra_links=["Kotisivu", "Kokeile selaimessa", "Lataa Androidille", "Lähdekoodi"],
+        gievra_links=["Kotisivu", "Kokeile selaimessa", "Lataa Androidille", "Lähdekoodi", "🗺️ Lataa offline-kartat"],
         satni_what="Pohjoissaame–suomi–norja-sanakirja ja taivutin · Linux, Windows, Android ja selain",
         satni_status="Julkiset julkaisut tauolla",
         satni_desc="Uudet julkiset versiot ovat tauolla, kunnes suljettu testaus on valmis. Työ jatkuu kulissien "
@@ -118,7 +118,7 @@ T = {
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt); navn på "
         "øvelser på finsk, engelsk eller begge.",
-        gievra_links=["Hjemmeside", "Prøv i nettleseren", "Last ned for Android", "Kildekode"],
+        gievra_links=["Hjemmeside", "Prøv i nettleseren", "Last ned for Android", "Kildekode", "🗺️ Last ned offline-kart"],
         satni_what="Nordsamisk–finsk–norsk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser",
         satni_status="Offentlige utgivelser på pause",
         satni_desc="Nye offentlige versjoner venter til den lukkede testen er ferdig. Arbeidet fortsetter i "
@@ -192,7 +192,7 @@ T = {
         ],
         gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus); "
         "hárjehusaid namat suomagillii, eŋgelasgillii dahje goappašagain.",
-        gievra_links=["Ruoktosiidu", "Geahččal neahttalohkkis", "Viečča Androidii", "Gáldokoda"],
+        gievra_links=["Ruoktosiidu", "Geahččal neahttalohkkis", "Viečča Androidii", "Gáldokoda", "🗺️ Viečča kárttaid fierpmehis geavahussii"],
         satni_what="Davvisámegiel sátnegirji suomagillii ja dárogillii, sojahanreaidu · Linux, Windows, Android ja neahttalohkki",
         satni_status="Almmolaš veršuvnnat bottus",
         satni_desc="Ođđa almmolaš veršuvnnat vurdet dassážii go giddejuvvon geahččaleapmi lea gárvvis. Bargu "
@@ -267,7 +267,7 @@ T = {
         ],
         gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated); exercise "
         "names in Finnish, English or both.",
-        gievra_links=["Home page", "Try in your browser", "Download for Android", "Source code"],
+        gievra_links=["Home page", "Try in your browser", "Download for Android", "Source code", "🗺️ Download offline maps"],
         satni_what="North Sámi–Finnish–Norwegian dictionary and inflection tool · Linux, Windows, Android and browser",
         satni_status="Public releases on hold",
         satni_desc="New public releases are on hold until closed testing is finished. Work continues behind the "
@@ -386,7 +386,8 @@ def block(code, t):
 {app(t, 'gievra', 'img/gievra.png', t['icon_alt'][0], 'new', [
         'https://sombyduodji.github.io/gievra/' + ('en/' if code == 'en' else ''),
         'https://sombyduodji.github.io/gievra/app/' + ('?lang=en' if code == 'en' else ''), GIEVRA_APK,
-        'https://github.com/sombyduodji/gievra'])}
+        'https://github.com/sombyduodji/gievra',
+        'https://sombyduodji.github.io/gievra/' + ('en/' if code == 'en' else '') + '#maphaku'])}
 {app(t, 'satni', 'img/satni-fst.svg', t['icon_alt'][1], 'hold', [
         'https://sombyduodji.github.io/satni-fst/', 'https://github.com/sombyduodji/satni-fst/releases/latest',
         'https://github.com/sombyduodji/satni-fst'])}
