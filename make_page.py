@@ -43,7 +43,8 @@ T = {
             "juoksulle oma kehitysnäkymä: vauhti, kilometrit, kevyiden lenkkien kehitys ja ennätykset",
             "ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
         ],
-        gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös); liikkeiden nimet "
+        gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös; vammatilan ohjeet suomeksi tai englanniksi); "
+        "liikkeiden nimet "
         "suomeksi, englanniksi tai molemmilla.",
         gievra_links=["Kotisivu", "Kokeile selaimessa", "Lataa Androidille", "Lähdekoodi", "🗺️ Lataa offline-kartat"],
         satni_what="Pohjoissaame–suomi–norja-sanakirja ja taivutin · Linux, Windows, Android ja selain",
@@ -116,7 +117,7 @@ T = {
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
             "programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
         ],
-        gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt); navn på "
+        gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
         gievra_links=["Hjemmeside", "Prøv i nettleseren", "Last ned for Android", "Kildekode", "🗺️ Last ned offline-kart"],
         satni_what="Nordsamisk–finsk–norsk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser",
@@ -190,7 +191,8 @@ T = {
             "viehkamii iežas ovdánanoaidnu: leaktu, kilomehterat ja rekordat",
             "prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
         ],
-        gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus); "
+        gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus; vahátrávvagat suomagillii dahje "
+        "eŋgelasgillii); "
         "hárjehusaid namat suomagillii, eŋgelasgillii dahje goappašagain.",
         gievra_links=["Ruoktosiidu", "Geahččal neahttalohkkis", "Viečča Androidii", "Gáldokoda", "🗺️ Viečča kárttaid fierpmehis geavahussii"],
         satni_what="Davvisámegiel sátnegirji suomagillii ja dárogillii, sojahanreaidu · Linux, Windows, Android ja neahttalohkki",
@@ -265,7 +267,7 @@ T = {
             "a separate progress view for running: pace, distance, easy-run progress and records",
             "program templates (<code>.gmd</code>) to share; import from FitNotes",
         ],
-        gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated); exercise "
+        gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated; injury guidance in Finnish or English); exercise "
         "names in Finnish, English or both.",
         gievra_links=["Home page", "Try in your browser", "Download for Android", "Source code", "🗺️ Download offline maps"],
         satni_what="North Sámi–Finnish–Norwegian dictionary and inflection tool · Linux, Windows, Android and browser",
