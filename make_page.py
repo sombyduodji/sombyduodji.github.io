@@ -37,12 +37,12 @@ T = {
         gievra_feats=[
             "sarjan kirjaus yhdellä napautuksella, lämmittelysarjat ja painoehdotukset valmiina",
             "valmiit treeniohjelmat: voimanosto, lihaskasvu, rasvanpoltto, yleiskunto, kahvakuula ja kehonpaino",
-            "uutta: valinnainen GPS juoksuun, kävelyyn ja pyöräilyyn; reitti kartalla ja .gpx-tiedostona, korjautuu poluille; nousut, korkeusprofiili ja kilometrien vauhti (kaikki karttamaat); offline-kartat Suomeen, Pohjoismaihin, Iso-Britanniaan ja Espanjaan",
-            "syke, kalorit ja askeleet kellosta Health Connectin kautta (Android, vain luku), myös tehty liikunta ja salitreeni kokonaisena; uutta: päivän askeleet ilman päällekkäisyyksiä etusivulla, kalenterissa ja tilastoissa, kävelymaton askeleet mukana",
-            "uutta: sykevyö Bluetoothilla (Polar H10 ym.): syke treenin ja palautuksen aikana, sykekäyrä, sykealueet ja kalorit; myös kellon sykekäyrä Health Connectista",
+            "valinnainen GPS juoksuun, kävelyyn ja pyöräilyyn; reitti kartalla ja .gpx-tiedostona, korjautuu poluille; nousut, korkeusprofiili ja kilometrien vauhti (kaikki karttamaat); offline-kartat Suomeen, Pohjoismaihin, Iso-Britanniaan ja Espanjaan",
+            "syke, kalorit ja askeleet kellosta Health Connectin kautta (Android, vain luku), myös tehty liikunta ja salitreeni kokonaisena; päivän askeleet ilman päällekkäisyyksiä etusivulla, kalenterissa ja tilastoissa, kävelymaton askeleet mukana",
+            "sykevyö Bluetoothilla (Polar H10 ym.): syke treenin ja palautuksen aikana, sykekäyrä, sykealueet ja kalorit; myös kellon sykekäyrä Health Connectista",
             "palautusajastin, tilastot (viikko–vuosi), ennätykset ja liikeohjeet animaatioineen; kehonpainon seuranta",
             "juoksulle oma kehitysnäkymä: vauhti, kilometrit, kevyiden lenkkien kehitys ja ennätykset",
-            "ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
+            "uutta: tämä tai tuo -liikkeet, ohjelman muokkaus ja jako kuvana (WhatsApp ym.), tarkempi viikon kuorma lihaksittain; ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
         ],
         gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös; vammatilan ohjeet suomeksi tai englanniksi); "
         "liikkeiden nimet "
@@ -112,12 +112,12 @@ T = {
         gievra_feats=[
             "logg et sett med ett trykk, oppvarmingssett og vektforslag ferdig utfylt",
             "ferdige treningsprogrammer: styrkeløft, muskelvekst, fettforbrenning, allsidig form, kettlebell og kroppsvekt",
-            "nytt: valgfri GPS for løping, gåing og sykling; ruten på kart og som .gpx-fil, tilpasses stiene; stigning, høydeprofil og tempo per kilometer (alle kartlandene); frakoblede kart for Norden, Storbritannia og Spania",
-            "puls, kalorier og skritt fra klokka via Health Connect (Android, kun lesing), også en fullført økt eller styrkeøkt; nytt: daglige skritt uten duplikater på startsiden, i kalenderen og i statistikken, med skritt fra tredemølle",
-            "nytt: pulsbelte via Bluetooth (Polar H10 m.fl.): puls under økta og pausene, pulskurve, pulssoner og kalorier; også pulskurve fra klokka via Health Connect",
+            "valgfri GPS for løping, gåing og sykling; ruten på kart og som .gpx-fil, tilpasses stiene; stigning, høydeprofil og tempo per kilometer (alle kartlandene); frakoblede kart for Norden, Storbritannia og Spania",
+            "puls, kalorier og skritt fra klokka via Health Connect (Android, kun lesing), også en fullført økt eller styrkeøkt; daglige skritt uten duplikater på startsiden, i kalenderen og i statistikken, med skritt fra tredemølle",
+            "pulsbelte via Bluetooth (Polar H10 m.fl.): puls under økta og pausene, pulskurve, pulssoner og kalorier; også pulskurve fra klokka via Health Connect",
             "pausetimer, statistikk (uke–år), rekorder og øvelsesveiledninger med animasjoner; vektlogg",
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
-            "programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
+            "nytt: dette-eller-det-øvelser, redigering av programmet og deling som bilde (WhatsApp o.l.), mer detaljert ukentlig belastning per muskel; programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
@@ -187,12 +187,12 @@ T = {
             "ráiddu vurken ovttain deaddilemiin, liegganeami ráiddut ja deaddoevttohusat gárvvisin",
             "gárvves hárjehallanprográmmat: fápmolokten, deahkkešattolašvuohta, buoiddi boaldin, oppalaš návccat, "
             "kettlebell ja rumašdeaddu",
-            "ođđa: eaktodáhtolaš GPS viehkamii, vázzimii ja sihkkelastimii; johtolat kárttas ja .gpx-fiilan, divvojuvvo bálgáide; goargŋumat ja allodatprofiila (buot kártariikkat); kárttat interneahta haga: Suopma, Ruoŧŧa, Norga, Dánmárku, Islánda, Stuorra-Británnia ja Spánja",
-            "pulsa, kaloriijat ja lávkkit diimmus Health Connect bokte (Android, dušše lohkat), maiddái dahkkon lihkadeapmi ja sállahárjehallan; ođđa: beaivvi lávkkit almmá duppaliid haga ruovttušearpmas, kaleandaris ja statistihkas, vázzinmašiinna lávkkit mielde",
-            "ođđa: pulsaboagán Bluetoothain (Polar H10 ja earát): pulsa hárjehallama ja vuoiŋŋasteami áigge, pulsakurva, pulsaguovllut ja kaloriijat; maiddái diimmu pulsakurva Health Connect bokte",
+            "eaktodáhtolaš GPS viehkamii, vázzimii ja sihkkelastimii; johtolat kárttas ja .gpx-fiilan, divvojuvvo bálgáide; goargŋumat ja allodatprofiila (buot kártariikkat); kárttat interneahta haga: Suopma, Ruoŧŧa, Norga, Dánmárku, Islánda, Stuorra-Británnia ja Spánja",
+            "pulsa, kaloriijat ja lávkkit diimmus Health Connect bokte (Android, dušše lohkat), maiddái dahkkon lihkadeapmi ja sállahárjehallan; beaivvi lávkkit almmá duppaliid haga ruovttušearpmas, kaleandaris ja statistihkas, vázzinmašiinna lávkkit mielde",
+            "pulsaboagán Bluetoothain (Polar H10 ja earát): pulsa hárjehallama ja vuoiŋŋasteami áigge, pulsakurva, pulsaguovllut ja kaloriijat; maiddái diimmu pulsakurva Health Connect bokte",
             "vuoiŋŋasteami áigemihttár, statistihkka (vahkku–jahki), rekordat ja hárjehusaid rávvagat animašuvnnaiguin; rumašdeattu čuovvun",
             "viehkamii iežas ovdánanoaidnu: leaktu, kilomehterat ja rekordat",
-            "prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
+            "ođđa: dát dahje dat -hárjehusat, prográmma rievdadeapmi ja juogadeapmi govvan (WhatsApp jna.), dárkilet vahku noađđi deahkkejoavkkuid mielde; prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
         ],
         gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus; vahátrávvagat suomagillii dahje "
         "eŋgelasgillii); "
@@ -264,12 +264,12 @@ T = {
         gievra_feats=[
             "log a set with one tap, with warm-up sets and weight suggestions filled in",
             "ready-made programs: powerlifting, muscle growth, fat loss, general fitness, kettlebell and bodyweight",
-            "new: optional GPS for running, walking and cycling; the route on a map and as a .gpx file, snapped to paths; climb, elevation profile and pace per kilometre (all map countries); offline maps for Finland, the Nordic countries, the UK and Spain",
-            "heart rate, calories and steps from your watch via Health Connect (Android, read only), also a completed workout or gym session; new: daily steps without duplicates on the home screen, in the calendar and in statistics, walking pad steps included",
-            "new: Bluetooth heart rate strap (Polar H10 etc.): heart rate during workouts and rest, a heart rate curve, zones and calories; your watch's heart rate curve via Health Connect too",
+            "optional GPS for running, walking and cycling; the route on a map and as a .gpx file, snapped to paths; climb, elevation profile and pace per kilometre (all map countries); offline maps for Finland, the Nordic countries, the UK and Spain",
+            "heart rate, calories and steps from your watch via Health Connect (Android, read only), also a completed workout or gym session; daily steps without duplicates on the home screen, in the calendar and in statistics, walking pad steps included",
+            "Bluetooth heart rate strap (Polar H10 etc.): heart rate during workouts and rest, a heart rate curve, zones and calories; your watch's heart rate curve via Health Connect too",
             "rest timer, statistics (week to year), records and exercise guides with animations; body weight tracking",
             "a separate progress view for running: pace, distance, easy-run progress and records",
-            "program templates (<code>.gmd</code>) to share; import from FitNotes",
+            "new: this-or-that exercises, program editing and sharing as an image (WhatsApp etc.), more detailed weekly volume per muscle; program templates (<code>.gmd</code>) to share; import from FitNotes",
         ],
         gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated; injury guidance in Finnish or English); exercise "
         "names in Finnish, English or both.",
