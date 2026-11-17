@@ -42,7 +42,7 @@ T = {
             "sykevyö Bluetoothilla (Polar H10 ym.): syke treenin ja palautuksen aikana, sykekäyrä, sykealueet ja kalorit; myös kellon sykekäyrä Health Connectista",
             "palautusajastin, tilastot (viikko–vuosi), ennätykset ja liikeohjeet animaatioineen; kehonpainon seuranta",
             "juoksulle oma kehitysnäkymä: vauhti, kilometrit, kevyiden lenkkien kehitys ja ennätykset",
-            "uutta: tämä tai tuo -liikkeet, ohjelman muokkaus ja jako kuvana (WhatsApp ym.), tarkempi viikon kuorma lihaksittain; ohjelmapohjat (<code>.gmd</code>) jaettaviksi; tuonti FitNotesista",
+            "uutta 0.6.8: uusi ulkoasu alapalkilla, treeni jatkuu taustalla kesken lenkin, kalorit renkaana (aktiiviset ja kokonaiskulutus; kävely vauhdista), vammatila keventää ja korvaa liikkeet; lisäksi tämä tai tuo -liikkeet, jako kuvana, ohjelmapohjat (<code>.gmd</code>) ja tuonti FitNotesista",
         ],
         gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös; vammatilan ohjeet suomeksi tai englanniksi); "
         "liikkeiden nimet "
@@ -82,7 +82,7 @@ T = {
         ],
         fb_h="Palaute on aina tervetullutta",
         fb_intro="Virheet, ideat, käännöskorjaukset ja kaikki muu auttavat sovelluksia eteenpäin:",
-        fb_gievra="Gievra: {mail} tai sovelluksessa ☰ → <i>Ilmoita ongelmasta</i>",
+        fb_gievra="Gievra: {mail} tai sovelluksessa Lisää → <i>Ilmoita ongelmasta</i>",
         fb_satni="Sátni FST ja Sátnemátki: {mail}",
         fb_github="GitHubissa: {link} (kunkin sovelluksen virheilmoitukset ja ehdotukset)",
         coffee="Jos sovelluksista on sinulle hyötyä, voit {link} ☕",
@@ -117,7 +117,7 @@ T = {
             "pulsbelte via Bluetooth (Polar H10 m.fl.): puls under økta og pausene, pulskurve, pulssoner og kalorier; også pulskurve fra klokka via Health Connect",
             "pausetimer, statistikk (uke–år), rekorder og øvelsesveiledninger med animasjoner; vektlogg",
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
-            "nytt: dette-eller-det-øvelser, redigering av programmet og deling som bilde (WhatsApp o.l.), mer detaljert ukentlig belastning per muskel; programmaler (<code>.gmd</code>) til deling; import fra FitNotes",
+            "nytt i 0.6.8: nytt utseende med fanelinje nederst, økten fortsetter i bakgrunnen midt på turen, kalorier som ring (aktive og totalt; gange ut fra fart), skademodus letter og erstatter øvelser; dessuten dette-eller-det-øvelser, deling som bilde, programmaler (<code>.gmd</code>) og import fra FitNotes",
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
@@ -156,7 +156,7 @@ T = {
         ],
         fb_h="Tilbakemeldinger er alltid velkomne",
         fb_intro="Feil, ideer, rettelser til oversettelser og alt annet hjelper appene videre:",
-        fb_gievra="Gievra: {mail} eller i appen ☰ → <i>Ilmoita ongelmasta</i> (rapporter et problem)",
+        fb_gievra="Gievra: {mail} eller i appen Lisää (Mer) → <i>Ilmoita ongelmasta</i> (rapporter et problem)",
         fb_satni="Sátni FST og Sátnemátki: {mail}",
         fb_github="På GitHub: {link} (feilrapporter og forslag for hver app)",
         coffee="Hvis appene er nyttige for deg, kan du {link} ☕",
@@ -192,7 +192,7 @@ T = {
             "pulsaboagán Bluetoothain (Polar H10 ja earát): pulsa hárjehallama ja vuoiŋŋasteami áigge, pulsakurva, pulsaguovllut ja kaloriijat; maiddái diimmu pulsakurva Health Connect bokte",
             "vuoiŋŋasteami áigemihttár, statistihkka (vahkku–jahki), rekordat ja hárjehusaid rávvagat animašuvnnaiguin; rumašdeattu čuovvun",
             "viehkamii iežas ovdánanoaidnu: leaktu, kilomehterat ja rekordat",
-            "ođđa: dát dahje dat -hárjehusat, prográmma rievdadeapmi ja juogadeapmi govvan (WhatsApp jna.), dárkilet vahku noađđi deahkkejoavkkuid mielde; prográmmavuođut (<code>.gmd</code>) juogadeapmái; hárjehallamiid viežžan FitNotes-prográmmas",
+            "ođđa 0.6.8:s: ođđa hápmi vuolleholggain, hárjehallan joatkašuvvá duogážis, kaloriijat gierdun (aktiivvalaš ja oppalaš; vázzin leavttus), roasmmohuvvan geahpida ja lonuha hárjehusaid; maiddái dát dahje dat -hárjehusat, juogadeapmi govvan, prográmmavuođut (<code>.gmd</code>) ja viežžan FitNotes-prográmmas",
         ],
         gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus; vahátrávvagat suomagillii dahje "
         "eŋgelasgillii); "
@@ -233,7 +233,7 @@ T = {
         ],
         fb_h="Máhcahat lea álo buresboahtin",
         fb_intro="Meattáhusat, jurdagat, jorgalusaid divvumat ja buot eará veahkehit prográmmaid ovddos:",
-        fb_gievra="Gievra: {mail} dahje prográmmas ☰ → <i>Dieđit váttisvuođas</i>",
+        fb_gievra="Gievra: {mail} dahje prográmmas Lasit → <i>Dieđit váttisvuođas</i>",
         fb_satni="Sátni FST ja Sátnemátki: {mail}",
         fb_github="GitHubas: {link} (juohke prográmma meattáhusdieđáhusat ja evttohusat)",
         coffee="Jus prográmmat leat dutnje ávkkálaččat, sáhtát {link} ☕",
@@ -269,7 +269,7 @@ T = {
             "Bluetooth heart rate strap (Polar H10 etc.): heart rate during workouts and rest, a heart rate curve, zones and calories; your watch's heart rate curve via Health Connect too",
             "rest timer, statistics (week to year), records and exercise guides with animations; body weight tracking",
             "a separate progress view for running: pace, distance, easy-run progress and records",
-            "new: this-or-that exercises, program editing and sharing as an image (WhatsApp etc.), more detailed weekly volume per muscle; program templates (<code>.gmd</code>) to share; import from FitNotes",
+            "new in 0.6.8: a fresh look with a bottom bar, workouts continue in the background mid-walk, calories as a ring (active and total; walking from speed), injury mode lightens and substitutes exercises; also this-or-that exercises, sharing as an image, program templates (<code>.gmd</code>) and import from FitNotes",
         ],
         gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated; injury guidance in Finnish or English); exercise "
         "names in Finnish, English or both.",
@@ -309,7 +309,7 @@ T = {
         ],
         fb_h="Feedback is always welcome",
         fb_intro="Bugs, ideas, translation fixes and anything else help the apps along:",
-        fb_gievra="Gievra: {mail} or in the app ☰ → <i>Report a problem</i>",
+        fb_gievra="Gievra: {mail} or in the app More → <i>Report a problem</i>",
         fb_satni="Sátni FST and Sátnemátki: {mail}",
         fb_github="On GitHub: {link} (bug reports and suggestions for each app)",
         coffee="If the apps are useful to you, you can {link} ☕",
