@@ -43,6 +43,7 @@ T = {
             "palautusajastin, tilastot (viikko–vuosi), ennätykset ja liikeohjeet animaatioineen; kehonpainon seuranta",
             "juoksulle oma kehitysnäkymä: vauhti, kilometrit, kevyiden lenkkien kehitys ja ennätykset",
             "uutta 0.6.8: uusi ulkoasu alapalkilla, treeni jatkuu taustalla kesken lenkin, kalorit renkaana (aktiiviset ja kokonaiskulutus; kävely vauhdista), vammatila keventää ja korvaa liikkeet; lisäksi tämä tai tuo -liikkeet, jako kuvana, ohjelmapohjat (<code>.gmd</code>) ja tuonti FitNotesista",
+            "uutta 0.6.9: valinnaiset Palautuminen- ja Uni-kortit (yösyke, HRV, hengitys, happi, lämpö, uni ja kuormitus omaan tasoon verrattuna vihreänä, keltaisena tai punaisena), kehitys tilastoissa, juoksuvauhdin kehitystavoitteet, hex bar ja liikekohtainen tanko",
         ],
         gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös; vammatilan ohjeet suomeksi tai englanniksi); "
         "liikkeiden nimet "
@@ -118,6 +119,7 @@ T = {
             "pausetimer, statistikk (uke–år), rekorder og øvelsesveiledninger med animasjoner; vektlogg",
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
             "nytt i 0.6.8: nytt utseende med fanelinje nederst, økten fortsetter i bakgrunnen midt på turen, kalorier som ring (aktive og totalt; gange ut fra fart), skademodus letter og erstatter øvelser; dessuten dette-eller-det-øvelser, deling som bilde, programmaler (<code>.gmd</code>) og import fra FitNotes",
+            "nytt i 0.6.9: valgfrie kort for restitusjon og søvn (nattpuls, HRV, pust, oksygen, temperatur, søvn og belastning sammenlignet med ditt eget nivå i grønt, gult eller rødt), utvikling i statistikken, mål for løpetempo, hex bar og egen stang per øvelse",
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
@@ -193,6 +195,7 @@ T = {
             "vuoiŋŋasteami áigemihttár, statistihkka (vahkku–jahki), rekordat ja hárjehusaid rávvagat animašuvnnaiguin; rumašdeattu čuovvun",
             "viehkamii iežas ovdánanoaidnu: leaktu, kilomehterat ja rekordat",
             "ođđa 0.6.8:s: ođđa hápmi vuolleholggain, hárjehallan joatkašuvvá duogážis, kaloriijat gierdun (aktiivvalaš ja oppalaš; vázzin leavttus), roasmmohuvvan geahpida ja lonuha hárjehusaid; maiddái dát dahje dat -hárjehusat, juogadeapmi govvan, prográmmavuođut (<code>.gmd</code>) ja viežžan FitNotes-prográmmas",
+            "ođđa 0.6.9:s: válljejuvvon Vuoiŋŋasteapmi- ja Oađđin-kortat (ijapulsa, HRV, vuoigŋan, oksygena, temperatuvra, oađđin ja noađđi buohtastahttojuvvon iežat dábálaš dássái ruoná, fiskes dahje rukses ivnniin), ovdáneapmi statistihkas, viehkanleavttu ulbmilat, hex bar ja hárjehusa mielde stággu",
         ],
         gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus; vahátrávvagat suomagillii dahje "
         "eŋgelasgillii); "
@@ -270,6 +273,7 @@ T = {
             "rest timer, statistics (week to year), records and exercise guides with animations; body weight tracking",
             "a separate progress view for running: pace, distance, easy-run progress and records",
             "new in 0.6.8: a fresh look with a bottom bar, workouts continue in the background mid-walk, calories as a ring (active and total; walking from speed), injury mode lightens and substitutes exercises; also this-or-that exercises, sharing as an image, program templates (<code>.gmd</code>) and import from FitNotes",
+            "new in 0.6.9: optional Recovery and Sleep cards (night heart rate, HRV, breathing, oxygen, temperature, sleep and training load against your own usual level, in green, yellow or red), progress in statistics, running pace goals, hex bar and a bar per exercise",
         ],
         gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated; injury guidance in Finnish or English); exercise "
         "names in Finnish, English or both.",
