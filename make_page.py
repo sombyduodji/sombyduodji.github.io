@@ -44,7 +44,7 @@ T = {
             "juoksulle oma kehitysnäkymä: vauhti, kilometrit, kevyiden lenkkien kehitys ja ennätykset",
             "uutta 0.6.8: uusi ulkoasu alapalkilla, treeni jatkuu taustalla kesken lenkin, kalorit renkaana (aktiiviset ja kokonaiskulutus; kävely vauhdista), vammatila keventää ja korvaa liikkeet; lisäksi tämä tai tuo -liikkeet, jako kuvana, ohjelmapohjat (<code>.gmd</code>) ja tuonti FitNotesista",
             "uutta 0.6.9: valinnaiset Palautuminen- ja Uni-kortit (yösyke, HRV, hengitys, happi, lämpö, uni ja kuormitus omaan tasoon verrattuna vihreänä, keltaisena tai punaisena), kehitys tilastoissa, juoksuvauhdin kehitystavoitteet, hex bar ja liikekohtainen tanko",
-            "uutta 0.7.2: yösyke ja HRV vain valitusta unen lähteestä, Ilmoitukset estetty -vihje ja parempi ruudunlukijan tuki; 0.7.1: etusivu pelkälle treenaajalle (treeniputki, sarjat ja treeniaika)",
+            "uutta 0.7.2.1: yhteenveto heti treenin jälkeen (fiilis tai Ohita vie etusivulle) ja kellon tiedot yhteenvedossa; 0.7.2: yösyke ja HRV vain valitusta unen lähteestä ja parempi ruudunlukijan tuki",
         ],
         gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös; vammatilan ohjeet suomeksi tai englanniksi); "
         "liikkeiden nimet "
@@ -121,7 +121,7 @@ T = {
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
             "nytt i 0.6.8: nytt utseende med fanelinje nederst, økten fortsetter i bakgrunnen midt på turen, kalorier som ring (aktive og totalt; gange ut fra fart), skademodus letter og erstatter øvelser; dessuten dette-eller-det-øvelser, deling som bilde, programmaler (<code>.gmd</code>) og import fra FitNotes",
             "nytt i 0.6.9: valgfrie kort for restitusjon og søvn (nattpuls, HRV, pust, oksygen, temperatur, søvn og belastning sammenlignet med ditt eget nivå i grønt, gult eller rødt), utvikling i statistikken, mål for løpetempo, hex bar og egen stang per øvelse",
-            "nytt i 0.7.2: nattpuls og HRV bare fra valgt søvnkilde, varsel når varsler er blokkert, og bedre støtte for skjermleser; 0.7.1: startside for bare trening (treningsrekke, sett og treningstid)",
+            "nytt i 0.7.2.1: sammendrag rett etter økten (følelse eller Hopp over tar deg til startsiden) og klokkedata i sammendraget; 0.7.2: nattpuls og HRV bare fra valgt søvnkilde og bedre støtte for skjermleser",
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
@@ -198,7 +198,7 @@ T = {
             "viehkamii iežas ovdánanoaidnu: leaktu, kilomehterat ja rekordat",
             "ođđa 0.6.8:s: ođđa hápmi vuolleholggain, hárjehallan joatkašuvvá duogážis, kaloriijat gierdun (aktiivvalaš ja oppalaš; vázzin leavttus), roasmmohuvvan geahpida ja lonuha hárjehusaid; maiddái dát dahje dat -hárjehusat, juogadeapmi govvan, prográmmavuođut (<code>.gmd</code>) ja viežžan FitNotes-prográmmas",
             "ođđa 0.6.9:s: válljejuvvon Vuoiŋŋasteapmi- ja Oađđin-kortat (ijapulsa, HRV, vuoigŋan, oksygena, temperatuvra, oađđin ja noađđi buohtastahttojuvvon iežat dábálaš dássái ruoná, fiskes dahje rukses ivnniin), ovdáneapmi statistihkas, viehkanleavttu ulbmilat, hex bar ja hárjehusa mielde stággu",
-            "ođđa 0.7.2:s: ija pulsa ja HRV dušše válljen oađđima gáldus, dieđáhus go dieđáhusat leat hehttejuvvon, ja buoret šearbmalohkki; 0.7.1: ovdasiidu dušše hárjehallamii (hárjehallanráidu, ráiddut ja hárjehallanáigi)",
+            "ođđa 0.7.2.1:s: čoahkkáigeassu dakkaviđe hárjehallama maŋŋá (dovdu dahje Njuikes doalvu ovdasiidui) ja diimmu dieđut čoahkkáigeasus; 0.7.2: ija pulsa ja HRV dušše válljen oađđima gáldus ja buoret šearbmalohkki",
         ],
         gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus; vahátrávvagat suomagillii dahje "
         "eŋgelasgillii); "
@@ -277,7 +277,7 @@ T = {
             "a separate progress view for running: pace, distance, easy-run progress and records",
             "new in 0.6.8: a fresh look with a bottom bar, workouts continue in the background mid-walk, calories as a ring (active and total; walking from speed), injury mode lightens and substitutes exercises; also this-or-that exercises, sharing as an image, program templates (<code>.gmd</code>) and import from FitNotes",
             "new in 0.6.9: optional Recovery and Sleep cards (night heart rate, HRV, breathing, oxygen, temperature, sleep and training load against your own usual level, in green, yellow or red), progress in statistics, running pace goals, hex bar and a bar per exercise",
-            "new in 0.7.2: night heart rate and HRV only from your chosen sleep source, a notice when notifications are blocked, and better screen reader support; 0.7.1: a home page for training only (training streak, sets and training time)",
+            "new in 0.7.2.1: a summary right after your workout (a feeling or Skip takes you home) and watch data on the summary; 0.7.2: night heart rate and HRV only from your chosen sleep source and better screen reader support",
         ],
         gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated; injury guidance in Finnish or English); exercise "
         "names in Finnish, English or both.",
