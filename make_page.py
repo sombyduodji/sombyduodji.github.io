@@ -44,7 +44,7 @@ T = {
             "juoksulle oma kehitysnäkymä: vauhti, kilometrit, kevyiden lenkkien kehitys ja ennätykset",
             "uutta 0.6.8: uusi ulkoasu alapalkilla, treeni jatkuu taustalla kesken lenkin, kalorit renkaana (aktiiviset ja kokonaiskulutus; kävely vauhdista), vammatila keventää ja korvaa liikkeet; lisäksi tämä tai tuo -liikkeet, jako kuvana, ohjelmapohjat (<code>.gmd</code>) ja tuonti FitNotesista",
             "uutta 0.6.9: valinnaiset Palautuminen- ja Uni-kortit (yösyke, HRV, hengitys, happi, lämpö, uni ja kuormitus omaan tasoon verrattuna vihreänä, keltaisena tai punaisena), kehitys tilastoissa, juoksuvauhdin kehitystavoitteet, hex bar ja liikekohtainen tanko",
-            "uutta 0.7.3: kaikki treenit Health Connectista kerralla, myös sovelluksesta, jolla ei ole omaa vientiä (ei kaksoiskappaleita, puuttuvat tiedot täydennetään), ja viikon kuorman osille tämän viikon sarjat; 0.7.2.2: rasitus sykkeestä ja hymiö yhdellä napautuksella",
+            "uutta 0.7.4: univaiheet unen napautuksella ja Tilastoihin Uni ja palautuminen (jakson uni, yöt pylväinä, univaiheet, yösyke ja HRV käyrinä); 0.7.3: kaikki treenit Health Connectista kerralla ilman kaksoiskappaleita",
         ],
         gievra_langs="käyttöliittymä suomeksi, englanniksi ja kokeellisesti pohjoissaameksi (konekäännös; vammatilan ohjeet suomeksi tai englanniksi); "
         "liikkeiden nimet "
@@ -121,7 +121,7 @@ T = {
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
             "nytt i 0.6.8: nytt utseende med fanelinje nederst, økten fortsetter i bakgrunnen midt på turen, kalorier som ring (aktive og totalt; gange ut fra fart), skademodus letter og erstatter øvelser; dessuten dette-eller-det-øvelser, deling som bilde, programmaler (<code>.gmd</code>) og import fra FitNotes",
             "nytt i 0.6.9: valgfrie kort for restitusjon og søvn (nattpuls, HRV, pust, oksygen, temperatur, søvn og belastning sammenlignet med ditt eget nivå i grønt, gult eller rødt), utvikling i statistikken, mål for løpetempo, hex bar og egen stang per øvelse",
-            "nytt i 0.7.3: alle økter fra Health Connect på én gang, også fra apper uten egen eksport (ingen duplikater, manglende data fylles inn), og ukens sett for hver muskeldel i ukebelastningen; 0.7.2.2: anstrengelse fra pulsen og ett trykk på et ansikt",
+            "nytt i 0.7.4: søvnstadier når du trykker på søvnen, og Søvn og restitusjon i statistikken (søvn for perioden, netter som søyler, søvnstadier, nattpuls og HRV som grafer); 0.7.3: alle økter fra Health Connect på én gang uten duplikater",
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
@@ -198,7 +198,7 @@ T = {
             "viehkamii iežas ovdánanoaidnu: leaktu, kilomehterat ja rekordat",
             "ođđa 0.6.8:s: ođđa hápmi vuolleholggain, hárjehallan joatkašuvvá duogážis, kaloriijat gierdun (aktiivvalaš ja oppalaš; vázzin leavttus), roasmmohuvvan geahpida ja lonuha hárjehusaid; maiddái dát dahje dat -hárjehusat, juogadeapmi govvan, prográmmavuođut (<code>.gmd</code>) ja viežžan FitNotes-prográmmas",
             "ođđa 0.6.9:s: válljejuvvon Vuoiŋŋasteapmi- ja Oađđin-kortat (ijapulsa, HRV, vuoigŋan, oksygena, temperatuvra, oađđin ja noađđi buohtastahttojuvvon iežat dábálaš dássái ruoná, fiskes dahje rukses ivnniin), ovdáneapmi statistihkas, viehkanleavttu ulbmilat, hex bar ja hárjehusa mielde stággu",
-            "ođđa 0.7.3:s: buot hárjehallamat Health Connectas oktanaga, maiddái prográmmas, mas ii leat iežas doalvun (eai guovttegeardásaččat, dieđut mat váilot lasihuvvojit), ja vahku noađi osiide dán vahku ráiddut; 0.7.2.2: rahčan pulssas ja dovdu ovtta deaddilemiin",
+            "ođđa 0.7.4:s: oađđindásit go deaddilat oađđima, ja statistihkkii Oađđin ja vuoiŋŋasteapmi (áigodaga oađđin, ijat sárggáin, oađđindásit, ija pulsa ja HRV gráfain); 0.7.3: buot hárjehallamat Health Connectas oktanaga",
         ],
         gievra_langs="geavahanlávdi suomagillii, eŋgelasgillii ja geahččaleapmin davvisámegillii (mašiidnajorgalus; vahátrávvagat suomagillii dahje "
         "eŋgelasgillii); "
@@ -277,7 +277,7 @@ T = {
             "a separate progress view for running: pace, distance, easy-run progress and records",
             "new in 0.6.8: a fresh look with a bottom bar, workouts continue in the background mid-walk, calories as a ring (active and total; walking from speed), injury mode lightens and substitutes exercises; also this-or-that exercises, sharing as an image, program templates (<code>.gmd</code>) and import from FitNotes",
             "new in 0.6.9: optional Recovery and Sleep cards (night heart rate, HRV, breathing, oxygen, temperature, sleep and training load against your own usual level, in green, yellow or red), progress in statistics, running pace goals, hex bar and a bar per exercise",
-            "new in 0.7.3: all your workouts from Health Connect in one go, also from apps with no export of their own (no duplicates, missing data filled in), and this week's sets for each muscle part in the weekly volume; 0.7.2.2: effort from heart rate and one tap on a face",
+            "new in 0.7.4: sleep stages when you tap your sleep, and Sleep and recovery in Stats (sleep for the period, nights as bars, sleep stages, night heart rate and HRV as graphs); 0.7.3: all your workouts from Health Connect in one go, without duplicates",
         ],
         gievra_langs="user interface in Finnish, English and, experimentally, North Sámi (machine translated; injury guidance in Finnish or English); exercise "
         "names in Finnish, English or both.",
