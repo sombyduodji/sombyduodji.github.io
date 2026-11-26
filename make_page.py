@@ -121,7 +121,7 @@ T = {
             "egen utviklingsvisning for løping: tempo, kilometer, rolige turer over tid og rekorder",
             "nytt i 0.6.8: nytt utseende med fanelinje nederst, økten fortsetter i bakgrunnen midt på turen, kalorier som ring (aktive og totalt; gange ut fra fart), skademodus letter og erstatter øvelser; dessuten dette-eller-det-øvelser, deling som bilde, programmaler (<code>.gmd</code>) og import fra FitNotes",
             "nytt i 0.6.9: valgfrie kort for restitusjon og søvn (nattpuls, HRV, pust, oksygen, temperatur, søvn og belastning sammenlignet med ditt eget nivå i grønt, gult eller rødt), utvikling i statistikken, mål for løpetempo, hex bar og egen stang per øvelse",
-            "nytt i 0.7.5.2: rettelser i registrering av sett og nattverdier; 0.7.5: tydeligere registrering av sett og valg av vektforslag (forslag, beste på 6 uker eller av); 0.7.4.1: rekordkort (beste løft og estimert maks nå); 0.7.4: søvnstadier når du trykker på søvnen, og Søvn og restitusjon i statistikken",
+            "nytt i 0.7.5.2: rettelser i registrering av sett og nattlige verdier; 0.7.5: tydeligere registrering av sett og valg av vektforslag (forslag, beste på 6 uker eller av); 0.7.4.1: rekordkort (beste løft og estimert maks nå); 0.7.4: søvnstadier når du trykker på søvnen, og Søvn og restitusjon i statistikken",
         ],
         gievra_langs="brukergrensesnitt på finsk, engelsk og eksperimentelt på nordsamisk (maskinoversatt; skaderåd på finsk eller engelsk); navn på "
         "øvelser på finsk, engelsk eller begge.",
