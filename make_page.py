@@ -51,19 +51,21 @@ T = {
         "suomeksi, englanniksi tai molemmilla.",
         gievra_links=["Kotisivu", "Kokeile selaimessa", "Lataa Androidille", "Lähdekoodi", "🗺️ Lataa offline-kartat"],
         satni_what="Pohjoissaame–suomi–norja-sanakirja ja taivutin · Linux, Windows, Android ja selain",
-        satni_status="Julkiset julkaisut tauolla",
-        satni_desc="Uudet julkiset versiot ovat tauolla, kunnes suljettu testaus on valmis. Työ jatkuu kulissien "
-        "takana, ja verkkoversiota ja nykyisiä latauksia voi käyttää edelleen.",
+        satni_status="Julkaistu · Google Play ja GitHub · 1.1.0",
+        satni_desc="Versio 1.1.0 julkaistiin 26.11.2026 Google Playssa ja GitHubissa. Verkkoversio toimii selaimessa "
+        "ilman asennusta.",
         satni_feats=[
             "noin 80 000 pohjoissaamen sanaa, joista noin 74 000 täysin taivutustauluin",
             "haku taivutetulla muodolla (<i>dagan</i> → <i>dahkat</i>) tai suomeksi ja norjaksi",
             "astevaihtelu väreillä, ääntäminen puhesynteesillä, historia ja suosikit",
+            "sanastot aiheittain äänineen (Biret, Máhtte ja Sunná), kuunteluharjoitus ja sanapeli",
+            "Androidissa kokeellinen kuvahaku: napauta kuvan saamenkielistä sanaa",
             "toimii ilman verkkoa; kielitieto GiellaLT:ltä, Divvunilta ja Giellateknolta",
         ],
-        satni_langs="sanakirja pohjoissaamesta suomeen ja norjaan ja toisin päin; käyttöliittymä suomeksi ja "
-        "norjaksi; osalle sanoista käännös myös englanniksi sekä inarin-, luulajan- ja eteläsaameksi; "
+        satni_langs="sanakirja pohjoissaamesta suomeen ja norjaan ja toisin päin; käyttöliittymä suomeksi, "
+        "norjaksi ja englanniksi; osalle sanoista käännös myös englanniksi sekä inarin-, luulajan- ja eteläsaameksi; "
         "kokeellisesti koltansaamen sanoja.",
-        satni_links=["Kotisivu ja verkkoversio", "Lataukset", "Lähdekoodi"],
+        satni_links=["Kotisivu ja verkkoversio", "Google Play", "Lataukset (GitHub)", "Lähdekoodi"],
         mat_what="Pohjoissaamen sanapeli lapsille · selaimessa",
         mat_status="Teknologiademo",
         mat_desc="<i>Sátnemátki</i> tarkoittaa sanamatkaa. Pelaaja kulkee paikasta toiseen Máhttena tai Biretinä, "
@@ -127,19 +129,21 @@ T = {
         "øvelser på finsk, engelsk eller begge.",
         gievra_links=["Hjemmeside", "Prøv i nettleseren", "Last ned for Android", "Kildekode", "🗺️ Last ned offline-kart"],
         satni_what="Nordsamisk–finsk–norsk ordbok og bøyingsverktøy · Linux, Windows, Android og nettleser",
-        satni_status="Offentlige utgivelser på pause",
-        satni_desc="Nye offentlige versjoner venter til den lukkede testen er ferdig. Arbeidet fortsetter i "
-        "kulissene, og nettversjonen og dagens nedlastinger kan fortsatt brukes.",
+        satni_status="Utgitt · Google Play og GitHub · 1.1.0",
+        satni_desc="Versjon 1.1.0 ble utgitt 26.11.2026 på Google Play og GitHub. Nettversjonen virker i nettleseren "
+        "uten installasjon.",
         satni_feats=[
             "rundt 80 000 nordsamiske ord, rundt 74 000 av dem med fullstendige bøyingstabeller",
             "søk med en bøyd form (<i>dagan</i> → <i>dahkat</i>) eller på finsk og norsk",
             "stadieveksling i farger, uttale med talesyntese, historikk og favoritter",
+            "ordlister etter tema med lyd (Biret, Máhtte og Sunná) og ordspill",
+            "eksperimentelt bildesøk på Android: trykk på et samisk ord i bildet",
             "virker uten nett; språkdata fra GiellaLT, Divvun og Giellatekno",
         ],
-        satni_langs="ordbok fra nordsamisk til finsk og norsk og motsatt vei; brukergrensesnitt på finsk og norsk; "
+        satni_langs="ordbok fra nordsamisk til finsk og norsk og motsatt vei; brukergrensesnitt på finsk, norsk og engelsk; "
         "for noen ord også oversettelser til engelsk, enaresamisk, lulesamisk og sørsamisk; eksperimentelt "
         "skoltesamiske ord.",
-        satni_links=["Hjemmeside og nettversjon", "Nedlastinger", "Kildekode"],
+        satni_links=["Hjemmeside og nettversjon", "Google Play", "Nedlastinger (GitHub)", "Kildekode"],
         mat_what="Nordsamisk ordspill for barn · i nettleseren",
         mat_status="Teknologidemo",
         mat_desc="<i>Sátnemátki</i> betyr ordreise. Spilleren går fra sted til sted som Máhtte eller Biret, "
@@ -205,19 +209,20 @@ T = {
         "hárjehusaid namat suomagillii, eŋgelasgillii dahje goappašagain.",
         gievra_links=["Ruoktosiidu", "Geahččal neahttalohkkis", "Viečča Androidii", "Gáldokoda", "🗺️ Viečča kárttaid fierpmehis geavahussii"],
         satni_what="Davvisámegiel sátnegirji suomagillii ja dárogillii, sojahanreaidu · Linux, Windows, Android ja neahttalohkki",
-        satni_status="Almmolaš veršuvnnat bottus",
-        satni_desc="Ođđa almmolaš veršuvnnat vurdet dassážii go giddejuvvon geahččaleapmi lea gárvvis. Bargu "
-        "joatkašuvvá duogábealde, ja neahttaveršuvnna ja dálá veršuvnnaid sáhttá ain geavahit.",
+        satni_status="Almmuhuvvon · Google Play ja GitHub · 1.1.0",
+        satni_desc="Veršuvdna 1.1.0 almmuhuvvui 26.11.2026. Neahttaveršuvdna doaibmá neahttalohkkis.",
         satni_feats=[
             "sullii 80 000 davvisámegiel sáni, main sullii 74 000 sánis leat ollislaš sojahantabeallat",
             "ohcan sojahuvvon hámiin (<i>dagan</i> → <i>dahkat</i>) dahje suomagillii ja dárogillii",
             "ceahkkemolsašupmi ivnniiguin, hupman hállansyntesain, historjá ja favorihtat",
+            "sátnelisttut fáttáid mielde jienaiguin (Biret, Máhtte ja Sunná), guldalanhárjehus ja sátnespeallu",
+            "Androidas geahččaleaddji govvaohcan",
             "doaibmá neahta haga; gielladieđut GiellaLT:s, Divvunis ja Giellateknos",
         ],
         satni_langs="sátnegirji davvisámegielas suomagillii ja dárogillii ja nuppe guvlui; geavahanlávdi "
-        "suomagillii ja dárogillii; muhtin sániide jorgalusat maiddái eŋgelasgillii, anárašgillii, "
+        "suomagillii, dárogillii ja eŋgelasgillii; muhtin sániide jorgalusat maiddái eŋgelasgillii, anárašgillii, "
         "julevsámegillii ja máttasámegillii; geahččaleapmin nuortalašgiel sánit.",
-        satni_links=["Ruoktosiidu ja neahttaveršuvdna", "Veršuvnnat", "Gáldokoda"],
+        satni_links=["Ruoktosiidu ja neahttaveršuvdna", "Google Play", "Veršuvnnat (GitHub)", "Gáldokoda"],
         mat_what="Davvisámegiel sátnespeallu mánáide · neahttalohkkis",
         mat_status="Teknologiijaovdačájeheapmi",
         mat_desc="Speallanolmmoš (Máhtte dahje Biret) vázzá báikkis báikái, speallu dadjá sámegiel sáni, ja "
@@ -283,19 +288,21 @@ T = {
         "names in Finnish, English or both.",
         gievra_links=["Home page", "Try in your browser", "Download for Android", "Source code", "🗺️ Download offline maps"],
         satni_what="North Sámi–Finnish–Norwegian dictionary and inflection tool · Linux, Windows, Android and browser",
-        satni_status="Public releases on hold",
-        satni_desc="New public releases are on hold until closed testing is finished. Work continues behind the "
-        "scenes, and the web version and current downloads can still be used.",
+        satni_status="Released · Google Play and GitHub · 1.1.0",
+        satni_desc="Version 1.1.0 was released on 26 November 2026 on Google Play and GitHub. The web version runs in "
+        "your browser with nothing to install.",
         satni_feats=[
             "about 80,000 North Sámi words, about 74,000 of them with full inflection tables",
             "search with an inflected form (<i>dagan</i> → <i>dahkat</i>) or in Finnish and Norwegian",
             "consonant gradation in colour, pronunciation with speech synthesis, history and favourites",
+            "word lists by topic with audio (Biret, Máhtte and Sunná) and a word game",
+            "experimental photo search on Android: tap a Sámi word in the picture",
             "works offline; language data from GiellaLT, Divvun and Giellatekno",
         ],
         satni_langs="dictionary from North Sámi to Finnish and Norwegian and the other way round; user interface "
-        "in Finnish and Norwegian; for some words also translations into English, Inari, Lule and Southern "
+        "in Finnish, Norwegian and English; for some words also translations into English, Inari, Lule and Southern "
         "Sámi; experimentally Skolt Sámi words.",
-        satni_links=["Home page and web version", "Downloads", "Source code"],
+        satni_links=["Home page and web version", "Google Play", "Downloads (GitHub)", "Source code"],
         mat_what="North Sámi word game for children · in your browser",
         mat_status="Technology demo",
         mat_desc="<i>Sátnemátki</i> means <i>word journey</i>. The player walks from place to place as Máhtte or "
@@ -402,8 +409,9 @@ def block(code, t):
         'https://sombyduodji.github.io/gievra/app/' + ('?lang=en' if code == 'en' else ''), GIEVRA_APK,
         'https://github.com/sombyduodji/gievra',
         'https://sombyduodji.github.io/gievra/' + ('en/' if code == 'en' else '') + '#maphaku'])}
-{app(t, 'satni', 'img/satni-fst.svg', t['icon_alt'][1], 'hold', [
-        'https://sombyduodji.github.io/satni-fst/', 'https://github.com/sombyduodji/satni-fst/releases/latest',
+{app(t, 'satni', 'img/satni-fst.svg', t['icon_alt'][1], 'new', [
+        'https://sombyduodji.github.io/satni-fst/', 'https://play.google.com/store/apps/details?id=fi.somby.satnifst',
+        'https://github.com/sombyduodji/satni-fst/releases/latest',
         'https://github.com/sombyduodji/satni-fst'])}
 {app(t, 'mat', 'img/satnematki.png', t['icon_alt'][2], 'demo', [
         'https://sombyduodji.github.io/satnematki/', 'https://github.com/sombyduodji/satnematki'])}
